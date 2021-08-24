@@ -6,7 +6,7 @@ if [[ $(findmnt /data) ]]; then
     echo "NAS is already mounted"
 else
     sleep 1
-    sshfs ylan@home.ym:/data /data -o allow_other
+    sshfs ylan@home.ym:/data /remote -o allow_other,reconnect
     sleep 1
 fi
 

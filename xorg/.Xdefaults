@@ -8,7 +8,7 @@ Xterm*Bell: false
 
 rofi.width: 30
 rofi.columns: 1
-rofi.font: FiraCode Nerd Font 20
+rofi.font: FiraCode Nerd Font 30
 rofi.bw: 1
 rofi.padding: 0
 rofi.eh: 1
